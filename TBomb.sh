@@ -26,7 +26,7 @@ clear
 echo -e "\e[1;31m"
 figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f mono12 -F border Nicoleus Sitorus
+toilet -f mono12 -F border Nicoleus
 echo -e "\e[4;34m This Bomber Was Created By Nicoleus Sitorus \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           FACEBOOK: Nicoleus Sitorus \e[0m"
@@ -79,7 +79,7 @@ clear
 echo -e "\e[1;33m"
 figlet TBomb
 echo -e "\e[1;34mCreated By \e[1;34m"
-toilet -f mono12 -F border Nicoleus Sitorus
+toilet -f mono12 -F border Nicoleus 
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
 echo "  [+] Unlimited And Super-Fast Bombing"
@@ -117,7 +117,7 @@ clear
 echo -e "\e[1;31m"
 figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f mono12 -F border Nicoleus Sitorus
+toilet -f mono12 -F border Nicoleus 
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: adysitorusa7@gmail.com \e[0m"
 echo -e "\e[1;32m       FACEBOOK : Nicoleus Sitorus \e[0m"
