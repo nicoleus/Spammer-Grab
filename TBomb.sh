@@ -5,7 +5,7 @@ echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m TBomb \e[0m"
 echo "Press Enter To Continue"
 read a1
-if [[ -s update.speedx ]];then
+if [[ -s update.nicoleus ]];then
 echo "All Requirements Found...."
 else
 echo 'Installing Requirements....'
@@ -14,7 +14,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was Made By Nicoleus Sitorus >update.speedx
+echo This Script Was Made By Nicoleus >update.nicoleus
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -29,8 +29,7 @@ echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border Nicoleus Sitorus
 echo -e "\e[4;34m This Bomber Was Created By Nicoleus Sitorus \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: adysitorusa7@gmail.com \e[0m"
-echo -e "\e[1;32m FACEBOOK : Nicoleus Sitorus \e[0m"
+echo -e "\e[1;32m           FACEBOOK: Nicoleus Sitorus \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/ady sitorus ady \e[0m"
 echo " "
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
@@ -51,7 +50,7 @@ exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
-echo 'Call Bomb By Nicoleus'> call.xxx
+echo 'Call Bomb By SpeedX'> call.xxx
 python3 bomber.py call
 rm *.xxx >/dev/null 2>&1
 exit 0
@@ -59,12 +58,13 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/nicoleus/TBombSpammer-Grab
-cd Spammer-Grab
+git clone https://github.com/TheSpeedX/TBomb
+if [[ -s TBomb/TBomb.sh ]];then
+cd TBomb
 cp -r -f * .. > temp
 cd ..
 rm -rf  TBomb >> temp
-rm update.speedx >> temp
+rm update.nicoleus >> temp
 rm temp
 chmod +x TBomb.sh
 fi
@@ -92,7 +92,7 @@ echo -e "\e[1;32m                   Contributors\e[1;33m"
 echo -e "\e[1;33m      [*]  SpeedX   \e[1;31m"
 echo "         [-] Mail At: adysitorusa7@gmail.com"
 echo -e "\e[1;33m      [*]  SAMOSIR CYBER TEAM   \e[1;31m"
-echo "         [-] Ping At: http://wa.me/917600140353"
+echo "         [-] Ping At: FACEBOOK: Nicoleus Sitorus"
 echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
 echo "         [-] Ping At: https://t.me/Rieltar"
 echo -e "\e[1;33m      [*]  0n1cOn3 (Stefan)   \e[1;31m"
@@ -107,7 +107,7 @@ echo  " "
 echo -e "\e[4;31m That's All !!!\e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: adysitorusa7@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: 0822xxx \e[0m"
+echo -e "\e[1;32m       FACEBOOK: Nicoleus Sitorus \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/ady sitorus ady \e[0m"
 echo "Press Enter To Go Home"
 read a3
@@ -117,11 +117,11 @@ clear
 echo -e "\e[1;31m"
 figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f mono12 -F border  Nicoleus Sitorus
+toilet -f mono12 -F border Nicoleus Sitorus
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: adysitorusa7@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: 0822xxx \e[0m"
-echo -e "\e[4;32m   YouTube Page:  https://www.youtube.com/c/ady sitorus ady \e[0m"
+echo -e "\e[1;32m       FACEBOOK : Nicoleus Sitorus \e[0m"
+echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/ady sitorus ady \e[0m"
 echo " "
 exit 0
 else
