@@ -9,4 +9,5 @@ git clone https://github.com/nicoleus/Spammer-Grab
 cd Spammer-Grab
 
 chmod +x TBomb.sh
+
 ./TBomb.sh
